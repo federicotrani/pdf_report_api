@@ -1,0 +1,89 @@
+# ---- .NET / MSBuild ----
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uilds/
+[Ll]og/
+[Ll]ogs/
+*.binlog
+*.dll
+*.exe
+*.pdb
+*.obj
+*.o
+*.suo
+*.user
+*.userprefs
+*.sdf
+*.opensdf
+*.tlog
+*.vspscc
+*.vssscc
+
+# ---- Visual Studio / Rider / VS Code ----
+.vs/
+.idea/
+*.swp
+*.DotSettings.user
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---- Resultados de pruebas ----
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+TestResults/
+
+# ---- NuGet ----
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---- Publicación / despliegue ----
+publish/
+[Dd]eploy/
+*.publishsettings
+*.deployproj
+
+# ---- Archivos de entorno / secretos ----
+*.env
+.env.*
+appsettings.*.local.json
+secrets.json
+*.pfx
+*.snk
+
+# ---- Sistema operativo ----
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---- OpenCode (especificaciones locales, opcional) ----
+# .opencode/
+
+# ---- Varios ----
+*.log
+*.tmp
+*.bak
+*.cache
+node_modules/
